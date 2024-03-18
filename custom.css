@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(27, 3, 55) !important;
+    /* background-image: url(./images/book_of_sol\ 1.jpg),url(./images/boof_of_sol\ 2.jpg); */
+    /* background-position: top center, bottom center; */
+    /* background-repeat: no-repeat, no-repeat;  */
+    /* background-size: 25%;  */
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 100px;
+    scroll-behavior: smooth;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: rgba(107, 24, 202, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.header__content img {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 70px;
+    min-height: 70px;
+}
+
+.logo_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.nav {
+    transition: all 0.5s ease-in-out;
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 40px;
+}
+
+.nav__link {
+    font-size: 15px;
+    color: #f3ec78;
+    transition: all 0.55s;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-bottom: 50px;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    height: 2px;
+    width: 27px;
+    margin: 5px 0;
+    background: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+.hamburger__open .bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+.hamburger__open .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger__open .bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+.main-content {
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    gap: 100px;
+    font-family: adgasima;
+
+}
+.main_hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    background-color: rgba(107, 24, 202, 0.2);
+    padding: 20px;
+    /* background-image: url(./images/Book_of_sol\ 10.jpg), url(./images/Book_Of_sol\ 7.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0px, 0;
+    animation: animatedBackground 10s linear infinite alternate; */
+}
+.bg-img{
+    width: 100px;
+    border-radius: 50% ;
+    position: relative;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 10s;
+}
+.bg-img2{
+    width: 100px;
+    border-radius: 50% ;
+    position: absolute;
+    top: 200px;
+    -webkit-animation: reverse infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 10s;
+}
+.bg-img3{
+    width: 100px;
+    border-radius: 50% ;
+    position: absolute;
+    top: 400px;
+    -webkit-animation: reverse infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 20s;
+}
+.img_container {
+    z-index: -2;
+    width: 100%;
+    /* bottom: 15%; */
+    position: absolute;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    /* min-webkit-animation-duration: 5s; */
+    opacity: 0.5;
+  }
+  @-webkit-keyframes run {
+    0% {
+      right: 0%;
+    }
+    50% {
+      right: 50%;
+    }
+    100% {
+      right: 0%;    
+    }
+  }
+.btn{
+    display: flex;
+    gap: 40px;
+}
+.btn button{
+    font-family: adgasima;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(38, 3, 78, 0.728);
+    cursor: pointer;
+    background-color: rgba(107, 24, 202, 0.5);
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: rgba(107, 24, 202, 0.5);
+    background-size: 100%;
+    font-size: large;
+    padding: 100px;
+    border-radius: 5px;
+}
+
+.hero_img {
+    width: 200px;
+    border-radius: 50%;
+}
+.token-info{
+    border: 5px solid rgba(107, 24, 202, 0.5) ;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+
+
+/* background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-bottom: 50px; */
+
+
+.footer {
+    display: grid;
+    place-content: center;
+    background-color: rgba(107, 24, 202, 0.5);
+    margin-top: 100px;
+    width: 100%;
+    padding: 50px 50px;
+    bottom: 0;
+}
+
+.footer_body {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer p {
+    text-align: center;
+    margin-top: 20px;
+    font-family: adgasima;
+    font-weight: 300;
+    font-size: large;
+}
+
+.nav__open {
+    transform: translate(0) !important;
+}
+
+@media screen and (max-width: 600px) {
+    .main-content{
+        width: 80%;
+        margin: 0px auto;
+    }
+    .nav {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        background-color: rgba(107, 24, 202, 0.5);
+        width: 100%;
+        padding: 10px 0 25px;
+        transform: translateX(-100%);
+    }
+
+    .logo_head h2 {
+        display: none;
+    }
+
+    .nav__list {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .nav__link {
+        font-size: 14px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+    .hero{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer{
+        margin: 40px 0px;
+    }
+
+    
+}
