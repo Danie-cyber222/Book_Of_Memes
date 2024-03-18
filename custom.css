@@ -208,13 +208,27 @@ a {
     border-radius: 50%;
 }
 .token-info{
+    width: 80%;
+    margin: 0px auto;
     border: 5px solid rgba(107, 24, 202, 0.5) ;
     padding: 20px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     gap: 20px;
+    font-size: 20px;
+}
+.token_first_info{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.token_second_info{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
 }
 
 
