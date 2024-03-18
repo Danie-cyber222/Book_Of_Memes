@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     background-color: rgb(27, 3, 55) !important;
     /* background-image: url(./images/book_of_sol\ 1.jpg),url(./images/boof_of_sol\ 2.jpg); */
