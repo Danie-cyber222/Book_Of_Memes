@@ -295,6 +295,16 @@ a {
         width: 80%;
         margin: 0px auto;
     }
+    .btn{
+        gap:20px;
+        line-height: 0;
+    }
+    .btn a{
+        font-size: smaller;
+    }
+    .btn button{
+        padding: 5px;
+    }
 
     .nav {
         position: fixed;
