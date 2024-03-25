@@ -8,10 +8,6 @@ html{
 }
 body {
     background-color: rgb(27, 3, 55) !important;
-    /* background-image: url(./images/book_of_sol\ 1.jpg),url(./images/boof_of_sol\ 2.jpg); */
-    /* background-position: top center, bottom center; */
-    /* background-repeat: no-repeat, no-repeat;  */
-    /* background-size: 25%;  */
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 100px;
@@ -128,16 +124,10 @@ a {
     padding: 20px;
     border-radius: 10px;
     animation: 1.5s ease-in-out 0s 1 slideInfromLeft;
-    /* background-image: url(./images/Book_of_sol\ 10.jpg), url(./images/Book_Of_sol\ 7.jpg);
-    background-size: 100px;
-    background-repeat: no-repeat, no-repeat;
-    background-position: 0px, 0;
-    animation: animatedBackground 10s linear infinite alternate; */
 }
 
 .bg-img {
     width: 100px;
-    /* border-radius: 50% ; */
     position: relative;
     -webkit-animation: linear infinite;
     -webkit-animation-name: run;
@@ -156,7 +146,6 @@ a {
 
 .bg-img3 {
     width: 100px;
-    /* border-radius: 50% ; */
     position: absolute;
     top: 400px;
     -webkit-animation: reverse infinite;
@@ -167,11 +156,9 @@ a {
 .img_container {
     z-index: -2;
     width: 50%;
-    /* bottom: 15%; */
     position: absolute;
     -webkit-animation: linear infinite;
     -webkit-animation-name: run;
-    /* min-webkit-animation-duration: 5s; */
     opacity: 0.5;
 }
 
@@ -197,7 +184,7 @@ a {
 .btn a{
     text-decoration: none;
     color:#fff;
-    
+
 }
 
 .btn button {
@@ -266,19 +253,6 @@ a {
 
 }
 
-
-
-
-/* background-color: #f3ec78;
-    background-image: linear-gradient(45deg, #f3ec78, #af4261);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    margin-bottom: 50px; */
-
-
 .footer {
     display: flex;
     flex-direction: column;
@@ -312,6 +286,7 @@ a {
 .nav__open {
     transform: translate(0) !important;
 }
+
 
 @media screen and (max-width: 700px) {
     .container {}
@@ -371,3 +346,23 @@ a {
 
 
 }
+
+/* background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-bottom: 50px; */
+
+    /* background-image: url(./images/Book_of_sol\ 10.jpg), url(./images/Book_Of_sol\ 7.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0px, 0;
+    animation: animatedBackground 10s linear infinite alternate; */
+
+    /* background-image: url(./images/book_of_sol\ 1.jpg),url(./images/boof_of_sol\ 2.jpg); */
+    /* background-position: top center, bottom center; */
+    /* background-repeat: no-repeat, no-repeat;  */
+    /* background-size: 25%;  */
